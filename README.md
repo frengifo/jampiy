@@ -1,13 +1,13 @@
-Vökuró
+Jampiy
 ======
 
-Phalcon is a web framework delivered as a C extension providing high performance and lower resource consumption.
+Jampiy que en el vocablo Quechua quiere decir "curar, tratar" es la solución que tiene como fin mejorar la calidad de vida de las personas mediante recomendaciones útiles y reducir las colas de pacientes en los hospitales al ser derivados cada quien al que mejor le corresponda según su necesidad y dentro de su jurisdicción.
 
-This is a sample application for the Phalcon Framework. We expect to implement as many features as possible to showcase the framework and its potential.
+Con este aplicativo estamos descentralizando los establecimientos de salud, así como informamos a las personas en general sobre las enfermedades, darles una asesoría de manera sencilla sobre sus síntomas para que puedan llegar mas conocimiento sobre lo que les sucede y pueda conversar con su médico de una manera mas optima.
 
-Please write us if you have any feedback.
+Porfavor escribanos si tiene alguna sugerencia.
 
-Thanks.
+Gracias.
 
 NOTE
 ----
@@ -15,12 +15,12 @@ The master branch will always contain the latest stable version. If you wish to 
 
 Required version: >= 1.1.0 B3
 
-Get Started
+Introduccion
 -----------
 
-#### Requirements
+#### Requerimientos
 
-To run this application on your machine, you need at least:
+Para correr la aplicacion en tu pc necesitas:
 
 * >= PHP 5.3.9
 * Apache Web Server with mod rewrite enabled, and AllowOverride Options (or All) in your httpd.conf
@@ -52,4 +52,4 @@ Phalcon is an open source project and a volunteer effort. Vökuró does not have
 
 License
 -------
-Vökuró is open-sourced software licensed under the New BSD License.
+Jampiy is open-sourced software licensed under the New BSD License.
