@@ -1,0 +1,500 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+span, figure, li{
+    display: inline-block;
+    vertical-align: top;    
+}
+
+figure{margin: 0;padding: 0;
+  position: relative; 
+  /*overflow: hidden; */
+}
+
+figcaption { 
+  position: absolute; 
+  padding: 0 0 .5em 0; 
+}
+
+img{width: 100%;}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+li {
+    /*padding: .5em;*/
+}
+
+a{text-decoration: none;color: #333;}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {  
+    /*font: 16px/26px Helvetica, Helvetica Neue, Arial;*/
+    font-family: 16px/26px 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container{
+    padding: 1em 0;
+    background-color: #BD2125;
+    background-position: right 1.5em center;
+    background-size: 42px;
+    background-repeat: no-repeat;
+}
+.nav-container{
+    background: #FFF;
+    color: #BD2125;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.main-container{
+    text-align: center;
+    color:#333;
+}
+.home{
+    background: url(../img/fondo_rojo.jpg);
+    color:#FFF;
+}
+.main-container figure{width: 65%;}
+.main-container hr{width: 20%;height: .3em;background: #FFF;display: inline-block;}
+
+.footer-container{
+    background: #FFF;
+    border-top: 3px solid #009FDB;
+}
+.footer-container ul{
+    margin-top: -3em;
+}
+
+.footer-container li{
+    display: inline-block;
+    margin: 0 5%;
+    width: 22%;
+}
+.footer-container ul li a{
+    display: block;
+    color: #009FDB;
+    /*font-weight: 700;*/
+}
+.title {
+    color: white;
+}
+.icon-help{
+    display: inline-block;
+    width: 20px;
+}
+.titu-mapa{padding: .5em;text-align: left;}
+.nav-borde{border-bottom: 2px solid #CE363A;}
+/*.foot-borde{border-top: 3px solid #009FDB;}*/
+.niveles li{margin-bottom: .5em;padding: .7em 0}
+.niveles span{font-weight: 700;}
+.niveles a{color: #FFF;}
+
+.color-blanco{color:#FFF;}
+.color-celeste{color:#009FDB;}
+.color-verde{color:#0F9B39;}
+.color-rojo{color:#CE363A;}
+.bg-celeste{background:#009FDB;color: #FFF;}
+.bg-verde{background:#0F9B39;color: #FFF;}
+.bg-rojo{background:#CE363A;color: #FFF;}
+
+.lista-centros{text-align: left;}
+.lista-centros li{margin:.5em 0;}
+
+input{
+    background-image: url(../img/buscar.png);
+    background-position: right .5em center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    padding: .5em 1em;
+    width: 90%;
+}
+.lista-diagbase{padding: 1em 0;}
+.lista-diagbase li{
+    padding: .3em;
+    display: block;
+    text-align: left;    
+}
+
+.diagnostico{
+    background: #CE363A;
+}
+.diagnostico span{
+    position: absolute;
+    background-repeat: no-repeat; 
+    background-size: 32px; 
+    top: -10px;
+    right: 10px;
+    width: 32px;
+    height: 40px;
+}
+.pregunta span{
+    background-image: url(../img/interroga.png);
+}
+.diagres span{
+    background-image: url(../img/admira.png);
+}
+.recomen span{
+    background-image: url(../img/check.png);
+}
+.urgencia span{
+    background-image: url(../img/admira_rojo.png);
+}
+
+.cuadro{
+    background: #fff;
+    padding: 1em;
+    margin: 1em 0 1.5em 0;
+    position: relative;
+}
+.cuadro p{
+    font-size: 1.2em; 
+}
+.cuadro a{color: #009FDB;}
+.response a{
+    display: inline-block;
+    color: #FFF;
+    padding: 1em;
+    margin: 1em;
+}
+.response .yes, .response .not{width: 25px;border-radius: 50%;}
+.response .yes{background-color: #0F9B39;}
+.response .not{background-color: #CE363A;}
+.response .verrec{background-color: #009FDB;}
+.response .verhos{
+    background-color: #009FDB;
+    background-repeat: no-repeat; 
+    background-size: 32px;
+    background-position: left .5em center;
+    background-image: url(../img/gps_blanco.png);
+    padding-left: 3em;
+}
+.text-mini{font-size: 1em!important;margin: 0!important;}
+/* ==============
+    MOBILE: Menu
+   ============== */
+nav {background: #FFF;}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+nav li { display: inline-block; }
+    
+nav a {
+    padding: 15px 0;
+    text-decoration: none;
+    color: #BD2125;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: .7em 0 2em 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+/*    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }*/
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    /*nav ul li {
+        display: inline;
+    }*/
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
